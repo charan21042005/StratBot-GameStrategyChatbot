@@ -1,53 +1,22 @@
-# StratBot-GameStrategyChatbot
-🎮 An AI-powered chatbot that provides real-time strategy suggestions for gamers using Google's Gemini API. Built with Flask, HTML, JS, and Python-dotenv.
+# StratBot 🎮🤖
 
+An AI-powered Game Strategy Chatbot built with Google Gemini API and Flask.
 
+## Features
+- Real-time Game Strategies: Get expert strategies, tips, and tricks for games.
+- Gemini 1.5 Pro Integration: Powered by the advanced Gemini model for intelligent game strategy insights.
+- Sports Strategy Insights: Ask about athletes like Ronaldo and get performance improvement tips!
+- Friendly Chatbot: Casual greetings handled with friendly responses.
+- General Knowledge Filtering: Non-gaming topics like “Who is Ronaldo?” are politely redirected.
 
+## How to Run
+1. Clone the repository to your local machine.
+2. Setup your `.env` file with your Gemini API key.
+3. Install the necessary dependencies by running pip install -r requirements.txt.
+4.Run the Flask app by executing python `app.py`.
+5. Open your browser and navigate to http://127.0.0.1:5000 to interact with StratBot.
 
-
-
-
-# 🎮 StratBot - Game Strategy Chatbot
-
-StratBot is an AI-powered web chatbot built using **Flask** and **Google's Gemini API**. It helps gamers strategize effectively for various games by providing real-time, context-specific advice.
-
----
-
-## 🚀 Features
-
-- Real-time chatbot for game strategies
-- Google Gemini API for natural language generation
-- Clean frontend interface with chat UI
-- Responsive web design using HTML, CSS, and JavaScript
-- Backend powered by Flask (Python)
-
----
-
-## 🧠 Tech Stack
-
-| Component       | Technology               |
-|----------------|---------------------------|
-| Frontend       | HTML, CSS, JavaScript     |
-| Backend        | Python (Flask)            |
-| AI Integration | Google Gemini (via `google.generativeai`) |
-| Environment    | `python-dotenv`           |
-| Version Control| Git & GitHub              |
-
----
-
-## 🏗️ System Architecture
-
-- User interacts with the web UI
-- Messages are sent to the Flask backend
-- The backend queries the Gemini API
-- The response is displayed in the chat
-
----
-
-
-
-
-
-Make sure you use your own API key.
-
-
+## Technologies Used
+- Flask: Web framework to build the app.
+- Google Gemini API: Powers the AI responses.
+- HTML, CSS, JavaScript: For frontend UI.
